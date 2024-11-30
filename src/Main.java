@@ -42,6 +42,7 @@ public class Main {
                     System.out.println("Enter the name for search:");
                     name = input.next();
                     list.search(name);
+                    break;
                     }
                     System.out.println("Table is Empty");
                     break;
@@ -50,6 +51,7 @@ public class Main {
                         System.out.println("Enter the name for delete:");
                         name = input.next();
                         list.delete(name);
+                        break;
                     }
                     System.out.println("Table is Empty");
                     break;
@@ -62,6 +64,7 @@ public class Main {
                             phone = input.next();
                             list.update(name, phone);
                         }
+                        break;
                     }
                     System.out.println("Table is Empty");
                     break;
